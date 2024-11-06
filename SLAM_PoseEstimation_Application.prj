@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3456269793" file="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming/SLAM_PoseEstimation_Application.prj" location="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming" name="SLAM_PoseEstimation_Application" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="3171986324" file="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming/SLAM_PoseEstimation_Application.prj" location="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming" name="SLAM_PoseEstimation_Application" target="target.mlapps" target-name="Package App">
     <param.appname>SLAM_PoseEstimation_Application</param.appname>
     <param.authnamewatermark>Hazem Mohsen Abdelaziz</param.authnamewatermark>
     <param.email>1900973@eng.asu.edu.eg</param.email>
@@ -7,19 +7,21 @@
     <param.icon />
     <param.icons />
     <param.summary>Indoor SLAM and Outdoor pose estimation Application.</param.summary>
-    <param.description>This is the spark of SLAM and State Estimation Application using Matlab mobile with Matlab Desktop.
-In this version, only data streamed and logged are visualized, with pose estimation for indoor and oudoor and indoor live VSLAM [trial version]</param.description>
+    <param.description>This MATLAB application is designed to perform a real-time visual simultaneous localization and mapping (VSLAM) indoors and pose estimation outdoors for logged and real-time (streamed) data by leveraging the connection between Matlab desktop and Matlab mobile application to extract sensory data from a mobile device.</param.description>
     <param.screenshot>/home/hazem/Downloads/Gemini_Generated_Image_xulmafxulmafxulm.jpeg</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
+      <item>Computer Vision Toolbox</item>
       <item>Navigation Toolbox</item>
     </param.products.name>
     <param.products.id>
       <item>1</item>
+      <item>96</item>
       <item>176</item>
     </param.products.id>
     <param.products.version>
+      <item>24.2</item>
       <item>24.2</item>
       <item>24.2</item>
     </param.products.version>
