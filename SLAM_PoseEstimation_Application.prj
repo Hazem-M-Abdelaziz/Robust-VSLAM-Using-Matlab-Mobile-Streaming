@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="3171986324" file="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming/SLAM_PoseEstimation_Application.prj" location="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming" name="SLAM_PoseEstimation_Application" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="1161935250" file="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming/SLAM_PoseEstimation_Application.prj" location="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming" name="SLAM_PoseEstimation_Application" target="target.mlapps" target-name="Package App">
     <param.appname>SLAM_PoseEstimation_Application</param.appname>
     <param.authnamewatermark>Hazem Mohsen Abdelaziz</param.authnamewatermark>
     <param.email>1900973@eng.asu.edu.eg</param.email>
