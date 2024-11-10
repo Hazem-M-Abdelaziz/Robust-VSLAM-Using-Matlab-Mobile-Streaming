@@ -36,6 +36,9 @@ The project includes three modes:
 - **Data Sources**: Pre-recorded GPS data files.
 - **Output**: Playback-based outdoor pose estimation, useful for testing and analysis.
 
+<img src="https://github.com/user-attachments/assets/1dda8988-78d6-4702-990b-a9aa03015b10" width="100%" />
+
+
 ## 📂 Project Hierarchy
 ----------------------
 
@@ -45,18 +48,19 @@ The following is the folder structure of the project, highlighting key files and
 Project_Root/
 ├── application/                                        # App Designer files for the user interface
 │   ├── SLAM_PoseEstimation_Application.mlapp        # Main app file developed in MATLAB's App Designer
-│   └── SLAM_PoseEstimation_Application.mlappinstall # Generated installation file for the application
-│   └── SLAM_PoseEstimation_Application.prj          # Generated project file that organizes, manages dependencies, packaging, etc...
+│   ├── SLAM_PoseEstimation_Application.mlappinstall # Generated installation file for the application
+│   ├── refFrame.jpeg                                # Display reference frame for mobile camera and features map
+│   ├── Logo.gif                                     # gif file containing Matlab logo to be displayed in application
+│   ├── SLAM_PoseEstimation_Application.prj          # Generated project file that organizes, manages dependencies, packaging, etc...
 ├── calibration/                                        # Directory for calibration parameters and scripts
 │   ├── cameraCalib.mlx                              # Script that is used to calibrate and store mobile camera parameters
-│   └── imuCalib.m                                   # Script used to calibrate IMU externally
-│   └── imu_params.mat                               # File that includes personal IMU parameters as an example
-│   └── mobile_camera_params.mat                     # File that includes personal mobile camera parameters as an example
-├── individualScripts/                                 # Trial scripts for application modes separately
+│   ├── imuCalib.m                                   # Script used to calibrate IMU externally
+│   ├── imu_params.mat                               # File that includes personal IMU parameters as an example
+│   ├── mobile_camera_params.mat                     # File that includes personal mobile camera parameters as an example
+├── individualScripts/                                  # Trial scripts for application modes separately
 │   ├── monoVSlamCapturing.mlx                       # Trial script for indoor VSLAM operations and features visualization
-│   └── GPSUpdate.mlx                                # Trial Script for outdoor map update using logged GPS data
-├── README.md                                        # Project documentation
-└── refFrame.jpeg                                    # Display reference frame for mobile camera and features map
+│   ├── GPSUpdate.mlx                                # Trial Script for outdoor map update using logged GPS data
+└── README.md                                        # Project documentation
 ```
 
 ## 🖥️ User Interface
