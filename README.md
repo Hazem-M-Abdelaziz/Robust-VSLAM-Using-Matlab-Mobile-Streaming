@@ -1,5 +1,11 @@
 # 📱 Robust VSLAM Using Mobile Data Streaming
 **Project ID:** #213  
+**Submitted by:** Hazem Mohsen Abdelaziz
+**Under Supervision of Prof:** Mohamed Ibrahim Awad 
+
+[Mechatronics Department - Faculty of Engineering, Ain Shams University]
+
+![isplayImg.jpeg](https://github.com/Hazem-M-Abdelaziz/Robust-VSLAM-Using-Matlab-Mobile-Streaming/blob/main/displayImg.jpeg)
 
 ---
 
@@ -13,7 +19,7 @@ The project includes three modes:
 2. 🌐 **Outdoor Pose Estimation Using Streaming**: Provides outdoor pose estimation by streaming GPS data from a mobile device and live processing.
 3. 📂 **Outdoor Pose Estimation Using Logged Data**: Enables pose estimation using pre-recorded GPS data for outdoor scenarios.
 
-## ⚙️ Modes of Operation
+## ⚙️ Application Modes of Operation
 
 ### 🏠 Mode 1: Indoor VSLAM
 - **Description**: Uses visual-inertial fusion for indoor SLAM.
