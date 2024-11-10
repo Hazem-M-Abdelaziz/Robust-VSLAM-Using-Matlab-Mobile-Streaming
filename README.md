@@ -6,7 +6,8 @@
 
 [Mechatronics Department - Faculty of Engineering, Ain Shams University]
 
-![isplayImg.jpeg](https://github.com/Hazem-M-Abdelaziz/Robust-VSLAM-Using-Matlab-Mobile-Streaming/blob/main/displayImg.jpeg)
+![displayImg](https://github.com/user-attachments/assets/43236569-29d4-42af-bd6e-994570016de7)
+
 
 ---
 
@@ -56,8 +57,6 @@ Project_Root/
 │   ├── monoVSlamCapturing.mlx                       # Trial script for indoor VSLAM operations and features visualization
 │   └── GPSUpdate.mlx                                # Trial Script for outdoor map update using logged GPS data
 ├── README.md                                        # Project documentation
-├── appLogo.md                                       # Logo for application when installed
-├── displayImg.jpeg                                  # Display image for README
 └── refFrame.jpeg                                    # Display reference frame for mobile camera and features map
 ```
 
