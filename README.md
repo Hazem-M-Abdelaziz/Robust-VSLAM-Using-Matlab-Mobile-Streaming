@@ -1,7 +1,8 @@
-# 📱 Robust VSLAM Using Mobile Data Streaming
-**Project ID:** #213  
+# 📱 Robust VSLAM Using Mobile Data Streaming (#213)
+
 **Submitted by:** Hazem Mohsen Abdelaziz
-**Under Supervision of Prof:** Mohamed Ibrahim Awad 
+
+**Under Supervision of Prof:** Mohamed Ibrahim Awad
 
 [Mechatronics Department - Faculty of Engineering, Ain Shams University]
 
