@@ -103,7 +103,7 @@ This project builds on various tools, libraries, and resources. Below are the ke
 Feel free to explore these references for more in-depth understanding and background of the technologies and concepts used.
 
 
-## Contacts 📧
+## 📧 Contacts 
 
 - **Hazem Mohsen**:
   - [![LinkedIn](https://img.shields.io/badge/LinkedIn-informational?style=flat&logo=linkedin&logoColor=white&color=0077B5)](https://www.linkedin.com/in/hazem-m-abdelaziz)
