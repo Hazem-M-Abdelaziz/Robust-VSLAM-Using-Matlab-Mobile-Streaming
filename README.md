@@ -6,8 +6,7 @@
 
 [Mechatronics Department - Faculty of Engineering, Ain Shams University]
 
-![displayImg](https://github.com/user-attachments/assets/43236569-29d4-42af-bd6e-994570016de7)
-
+<img src="https://github.com/user-attachments/assets/39d4eb35-5b0e-4d5a-8d1f-d0b830a58ea2" width="100%" />
 
 ---
 
