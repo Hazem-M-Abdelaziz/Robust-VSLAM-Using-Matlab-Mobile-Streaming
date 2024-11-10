@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.apptool" plugin-version="1.0">
-  <configuration build-checksum="1161935250" file="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming/SLAM_PoseEstimation_Application.prj" location="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming" name="SLAM_PoseEstimation_Application" target="target.mlapps" target-name="Package App">
+  <configuration build-checksum="2906459731" file="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming/application/SLAM_PoseEstimation_Application.prj" location="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming/application" name="SLAM_PoseEstimation_Application" target="target.mlapps" target-name="Package App">
     <param.appname>SLAM_PoseEstimation_Application</param.appname>
     <param.authnamewatermark>Hazem Mohsen Abdelaziz</param.authnamewatermark>
     <param.email>1900973@eng.asu.edu.eg</param.email>
@@ -8,7 +8,7 @@
     <param.icons />
     <param.summary>Indoor SLAM and Outdoor pose estimation Application.</param.summary>
     <param.description>This MATLAB application is designed to perform a real-time visual simultaneous localization and mapping (VSLAM) indoors and pose estimation outdoors for logged and real-time (streamed) data by leveraging the connection between Matlab desktop and Matlab mobile application to extract sensory data from a mobile device.</param.description>
-    <param.screenshot>/home/hazem/Downloads/Gemini_Generated_Image_xulmafxulmafxulm.jpeg</param.screenshot>
+    <param.screenshot>/home/hazem/Downloads/appLogo.jpeg</param.screenshot>
     <param.version>1.0</param.version>
     <param.products.name>
       <item>MATLAB</item>
@@ -45,7 +45,7 @@
     <fileset.resources />
     <fileset.package />
     <build-deliverables>
-      <file location="/home/hazem" name="Robust-VSLAM-Using-Matlab-Mobile-Streaming" optional="false">/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming</file>
+      <file location="/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming" name="application" optional="false">/home/hazem/Robust-VSLAM-Using-Matlab-Mobile-Streaming/application</file>
     </build-deliverables>
     <workflow />
     <matlab>
