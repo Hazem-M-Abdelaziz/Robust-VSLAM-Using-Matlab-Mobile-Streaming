@@ -10,6 +10,8 @@
 
 ---
 
+
+
 ## 🛠️ Project Overview
 
 "Robust VSLAM Using Mobile Data Streaming" is a MATLAB-based solution for visual simultaneous localization and mapping (VSLAM) and pose estimation using mobile device data. This project utilizes MATLAB's App Designer tool to create an interactive user interface, allowing users to seamlessly switch between multiple modes designed for both indoor and outdoor VSLAM operations. The application combines camera and IMU data for indoor localization, while GPS data enhances outdoor pose estimation.
@@ -20,6 +22,9 @@ The project includes three modes:
 3. 📂 **Outdoor Pose Estimation Using Logged Data**: Enables pose estimation using pre-recorded GPS data for outdoor scenarios.
 
 Visit project video to see all modes operating at:
+**https://youtu.be/57rX5jPZ314**
+
+
 
 ## ⚙️ Application Modes of Operation
 
@@ -44,12 +49,15 @@ Visit project video to see all modes operating at:
 
 <img src="https://github.com/user-attachments/assets/582cdfe1-b855-41c9-a216-0faebf9bd219" width="100%" />
 
+
+
 ## 🗺️ Reference Frames
 For the outdoor pose estimation, the first GPS coordinates streamed/logged is the motion reference with ENU axis.
 
 and for VSLAM mode, the reference frame is the first key frame added with reference axis as shown in the figure below.
 
 <img src="https://github.com/user-attachments/assets/f76e8e33-688a-4cfa-9cae-949a5be74714" width="25%" />
+
 
 
 ## ⚙️ Application Setup
@@ -66,6 +74,8 @@ and for VSLAM mode, the reference frame is the first key frame added with refere
 5. After installation, you can now access the application in the "APPS" panel, under "MY APPS".
 
 <img src="https://github.com/user-attachments/assets/a651f185-ecce-441e-8823-3fb46a78f226" width="100%" />
+
+
 
 ## 📂 Project Hierarchy
 
@@ -90,6 +100,8 @@ Project_Root/
 └── README.md                                        # Project documentation
 ```
 
+
+
 ## 🖥️ User Interface
 
 The project’s user interface is built with MATLAB's App Designer, providing an organized and user-friendly experience. Through this interface, users can:
@@ -107,6 +119,8 @@ The project’s user interface is built with MATLAB's App Designer, providing an
   - Navigation Toolbox
 
 - **Mobile Device** with MATLAB Mobile for logging and streaming data
+
+
 
 ## 📚 Project References
 
@@ -134,6 +148,7 @@ This project builds on various tools, libraries, and resources. Below are the ke
   - [MATLAB monovslam object Documentation](https://www.mathworks.com/help/vision/ref/monovslam.html)
 
 Feel free to explore these references for more in-depth understanding and background of the technologies and concepts used.
+
 
 
 ## 📧 Contacts 
