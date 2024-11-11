@@ -19,28 +19,55 @@ The project includes three modes:
 2. 🌐 **Outdoor Pose Estimation Using Streaming**: Provides outdoor pose estimation by streaming GPS data from a mobile device and live processing.
 3. 📂 **Outdoor Pose Estimation Using Logged Data**: Enables pose estimation using pre-recorded GPS data for outdoor scenarios.
 
+Visit project video to see all modes operating at:
+
 ## ⚙️ Application Modes of Operation
 
 ### 🏠 Mode 1: Indoor VSLAM
 - **Description**: Uses visual-inertial fusion for indoor SLAM.
-- **Data Sources**: Mobile camera snaps and IMU data.
+- **Data Sources**: Mobile camera snaps and IMU data streamed.
 - **Output**: Indoor features map and pose estimation based on fused data.
 
-### 🌐 Mode 2: Outdoor Pose Estimation Using Streaming
-- **Description**: Real-time outdoor pose estimation with live-streamed GPS data.
-- **Data Sources**: Streamed GPS data from a mobile device.
-- **Output**: Real-time outdoor pose estimation using GPS.
+<img src="https://github.com/user-attachments/assets/760db25a-fa8c-4477-a2c8-e7a587da955e" width="100%" />
 
-### 📂 Mode 3: Outdoor Pose Estimation Using Logged Data
+### 📂 Mode 2: Outdoor Pose Estimation Using Logged Data
 - **Description**: Uses logged GPS data for outdoor pose estimation.
-- **Data Sources**: Pre-recorded GPS data files.
+- **Data Sources**: Pre-recorded sensorlog file.
 - **Output**: Playback-based outdoor pose estimation, useful for testing and analysis.
 
 <img src="https://github.com/user-attachments/assets/1dda8988-78d6-4702-990b-a9aa03015b10" width="100%" />
 
+### 🌐 Mode 3: Outdoor Pose Estimation Using Streaming
+- **Description**: Real-time outdoor pose estimation with live-streamed GPS data.
+- **Data Sources**: Streamed GPS data from a mobile device.
+- **Output**: Real-time outdoor pose estimation using GPS.
+
+<img src="https://github.com/user-attachments/assets/582cdfe1-b855-41c9-a216-0faebf9bd219" width="100%" />
+
+## 🗺️ Reference Frames
+For the outdoor pose estimation, the first GPS coordinates streamed/logged is the motion reference with ENU axis.
+
+and for VSLAM mode, the reference frame is the first key frame added with reference axis as shown in the figure below.
+
+<img src="https://github.com/user-attachments/assets/f76e8e33-688a-4cfa-9cae-949a5be74714" width="25%" />
+
+
+## ⚙️ Application Setup
+
+1. clone the repository locally.
+2. open matlab and add path of "<Project_Path>/application" directory.
+   - to save path permenantly, locate pathdef.m script and enable writing permission.
+3. savepath to avoid redoing the previous step everytime Matlab opens.
+   - "Or simply you can avoid steps 2, and 3 and insert addpath line to startup.m script.
+
+<img src="https://github.com/user-attachments/assets/539f06fc-270e-4db6-9bcb-03b6452b9446" width="100%" />
+
+4. Locate the <app>.mlappinstall and double click to install the app.
+5. After installation, you can now access the application in the "APPS" panel, under "MY APPS".
+
+<img src="https://github.com/user-attachments/assets/a651f185-ecce-441e-8823-3fb46a78f226" width="100%" />
 
 ## 📂 Project Hierarchy
-----------------------
 
 The following is the folder structure of the project, highlighting key files and directories:
 
@@ -99,6 +126,12 @@ This project builds on various tools, libraries, and resources. Below are the ke
   
 - **Navigation Toolbox**: Used for GPS-based outdoor localization and pose estimation.
   - [MATLAB Navigation Toolbox Documentation](https://www.mathworks.com/products/navigation.html)
+
+- **Camera Calibration Toolbox**: Used for calibrating cameras to obtain accurate measurements and improve vision-based applications.
+  - [MATLAB Camera Calibration Documentation](https://www.mathworks.com/help/vision/camera-calibration.html)
+
+- **MonoVSLAM Object**: Utilized for visual SLAM (Simultaneous Localization and Mapping) using a single camera setup, allowing for real-time mapping and localization in an environment.
+  - [MATLAB monovslam object Documentation](https://www.mathworks.com/help/vision/ref/monovslam.html)
 
 Feel free to explore these references for more in-depth understanding and background of the technologies and concepts used.
 
