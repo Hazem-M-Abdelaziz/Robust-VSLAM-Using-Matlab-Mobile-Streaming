@@ -86,7 +86,6 @@ Project_Root/
 ├── application/                                        # App Designer files for the user interface
 │   ├── SLAM_PoseEstimation_Application.mlapp        # Main app file developed in MATLAB's App Designer
 │   ├── SLAM_PoseEstimation_Application.mlappinstall # Generated installation file for the application
-│   ├── refFrame.jpeg                                # Display reference frame for mobile camera and features map
 │   ├── Logo.gif                                     # gif file containing Matlab logo to be displayed in application
 │   ├── SLAM_PoseEstimation_Application.prj          # Generated project file that organizes, manages dependencies, packaging, etc...
 ├── calibration/                                        # Directory for calibration parameters and scripts
